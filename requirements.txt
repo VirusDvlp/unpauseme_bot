@@ -1,0 +1,8 @@
+aiogram
+redis
+python-dotenv
+aioredis
+APScheduler
+requests
+
+marshmallow

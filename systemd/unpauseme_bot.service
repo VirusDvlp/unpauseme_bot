@@ -1,0 +1,13 @@
+[Unit]
+Description=Unpauseme Bot
+After=network.target
+
+[Service]
+User=root
+Type=simple
+WorkingDirectory=/root/Unpauseme_bot
+ExecStart=/usr/bin/python3 bot.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
